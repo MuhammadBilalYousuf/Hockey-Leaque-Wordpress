@@ -1,0 +1,515 @@
+@import 'select2.min.css'; 
+
+.data-live-results {
+    transition: all 0.5s ease;
+}
+
+.data-live-results.change {
+    transform: scale(1.5);
+}
+
+.lsfs-event-live-status {
+    display: block;
+    color: inherit !important;
+}
+
+.lsfs-hidden {
+    display: none !important;
+}
+
+.sp-data-table {
+
+    &.sp-event-list-scorespro-free {
+        .data-league {
+            text-align: left;
+        }
+    }
+
+    &.lsfs-live-commentary {
+        ul { margin: 0; }
+
+        li {
+            display: flex;
+            align-items: flex-start;
+            border-bottom: 1px solid rgba(0,0,0,0.15);
+            padding: 1em;
+        }
+
+        .commentary-icon,
+        .commentary-minute {
+            width: 60px; 
+            font-size: 1.5em;
+            line-height: 1;
+        }
+
+        .commentary-icon {
+            span { margin-top: 2px; font-size: 1em; }
+        }
+
+        .commentary-text {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            p {
+                margin: 0;
+            }
+            img {
+                width: 32px;
+                height: auto;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &.lsfs-single-event {
+        text-align: center;
+        padding: 1em 0; 
+        font-size: 1.5em;
+
+        * {
+            font-weight: bold !important;
+        }
+
+        .lsfs-event-live-status {
+            font-weight: normal !important;
+            font-size: 0.75em;
+        }
+    }
+}
+
+.lsfs-live-scorers {
+    display: flex;
+    justify-content: space-between;
+
+    .lsfs-live-team-scorers {
+        width: 100%;
+        padding: 0 1em;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                font-size: 0.875em;
+
+                &:after {
+                    content: '';
+                    display: table;
+                    clear: both;
+                }
+
+                .lsfs-scorer-minutes {
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Live Form
+ */
+.lsfs-form-live-event-results {
+    padding: 1em;
+    font-size: 0.875em;
+    background: rgba( 0,0,0,0.05 );
+    box-sizing: border-box;
+
+    * { box-sizing: border-box; }
+
+    .sp-data-table {
+        border-bottom: 8px solid #333;
+
+        .live-event-team {
+            font-weight: 600;
+            text-align: left;
+            width: 60%;
+        }
+
+        .live-event-result {
+            input { width: 100%; text-align: center; }
+        }
+    }
+
+    .button {
+        transition: all 0.4s ease;
+        height: 40px;
+
+        &.right {
+            float: right;
+        }
+
+        &.button-secondary {
+            background: #666;
+            &:hover {
+                background: #ccc;
+            }
+        }
+
+        &[disabled] {
+            opacity:0.8;
+            background: #ccc;
+        }
+    }
+
+    .lsfs-live-parts {
+        input {
+            height: 40px;
+            line-height: 40px;
+            padding: 0 0.5em;
+            margin-top: 1em;
+        }
+    }
+    .lsfs-live-part {
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        &:not(:last-child) {
+            border-bottom: 1px solid rgba(0,0,0,0.15);
+        }
+
+        input {
+            display: block;
+        }
+    }
+
+    .lsfs-notice {
+        display: block;
+        padding: 1em;
+        background-color: #3AA35B;
+        color: white;
+
+        p { margin: 0; }
+        
+        &.error {
+            background-color: rgba(209, 35, 35, 0.62);
+        }
+    }
+}
+
+/**
+ * Commentary Form
+ */
+.lsfs-commentary-form {
+    padding: 1em;
+    background: rgba( 0,0,0,0.05 );
+    &:after {
+        clear:both;
+        display:table;
+        content: '';
+    }
+
+    .form-field {
+        width: 100%;
+        float: left;
+
+        input {
+            line-height: 40px;
+            height: 40px;
+            margin: 0;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input, textarea { padding: 10px; }
+
+        .select2-container { width: 100% !important; }
+
+        .select2-container--default .select2-selection--single {
+            height: 40px;
+
+            .select2-selection__rendered,
+            .select2-selection__arrow {
+                height: 40px;
+                line-height: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+        .select2-selection__rendered {
+            img {
+                height: 20px;
+                width: auto;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+        .lsfs-commentary-text {
+            margin: 0.5em 0 1em 0;
+        }
+
+        &.full-width {width: 100% !important;}
+    }
+
+    .form-icon,
+    .form-minute { 
+        width: 50%;
+    } 
+}
+
+.select2-results__options[id^="select2-lsfs_commentaryplayers"],
+.select2-results__options[id^="select2-lsfs_commentaryicon"] {
+    .select2-results__option {
+        img {
+            height: 20px;
+            width: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}
+
+#lsfs_notification_html {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 9999;
+    max-width: 300px;
+    width: 90%;
+    height: 150px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+
+    @media screen and (max-width: 480px) {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    button {
+        font-size: 12px;
+
+    }
+
+    .lsfs-notification-dismiss {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        background: none;
+        color: rgba( 0, 0, 0, 0.5 );
+        top: 0;
+        right: 0;
+    }
+
+    .lsfs-notification {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background: white;
+        padding-top: 20px;
+
+        .content {
+            .lsfs-event-team {
+                float: left;
+                width: 50%;
+                text-align: center;
+
+                img {
+                    height: 32px;
+                    width: auto;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+
+            .lsfs-event-result {
+                clear: both;
+                text-align: center;
+                font-size: 1.25em;
+            }
+
+            .lsfs-event-live-status { text-align: center; }
+        }
+    }
+
+    .actions {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        .lsfs-notification-prev {float:left;}
+        .lsfs-notification-next {float:right;}
+
+        button {
+            &[disabled] { opacity: 0.5; }
+        }
+
+        &:after {
+            display: table;
+            content: '';
+            clear: both;
+        }
+    }
+
+    &.active {
+        display: block;
+    }
+}
+
+/**
+ * SportsPress Icons
+ */
+
+.sp-icon-archive:before {
+    content: "\f322";
+}
+.sp-icon-availability:before {
+    content: "\f508";
+}
+.sp-icon-blocks:before {
+    content: "\f164"
+}
+.sp-icon-book:before {
+    content: "\f330";
+}
+.sp-icon-bracket:before {
+    content: "\f325"
+}
+.sp-icon-bracket-center:before {
+    content: "\f181"
+}
+.sp-icon-calculator:before {
+    content: "\f108";
+}
+.sp-icon-calendar:before,
+.sp-icon-sp_event:before {
+    content: "\f145";
+}
+.sp-icon-cake:before {
+    content: "\f453";
+}
+.sp-icon-cancel:before {
+    content: "\f335";
+}
+.sp-icon-chart:before {
+    content: "\f185";
+}
+.sp-icon-clipboard:before {
+    content: "\f481";
+}
+.sp-icon-color:before {
+    content: "\f309";
+}
+.sp-icon-copy:before {
+    content: "\f105";
+}
+.sp-icon-edit:before {
+    content: "\f464";
+}
+.sp-icon-export:before {
+    content: "\f317";
+}
+.sp-icon-eye:before {
+    content: "\f147";
+}
+.sp-icon-friendly:before {
+    content: "\f328";
+}
+.sp-icon-globe:before {
+    content: "\f319";
+}
+.sp-icon-import:before {
+    content: "\f316";
+}
+.sp-icon-league:before {
+    content: "\f332";
+}
+.sp-icon-list:before {
+    content: "\f163"
+}
+.sp-icon-megaphone:before {
+    content: "\f488";
+}
+.sp-icon-menu:before {
+    content: "\f116";
+}
+.sp-icon-minimal:before {
+    content: "\f237";
+}
+.sp-icon-popup:before {
+    content: "\f504";
+}
+.sp-icon-shield:before {
+    content: "\f334";
+}
+.sp-icon-sponsor:before {
+    content: "\f488";
+}
+.sp-icon-sportspress:before {
+    content: "\f111";
+}
+.sp-icon-staff:before {
+    content: "\f338";
+}
+.sp-icon-statistics:before {
+    content: "\f489";
+}
+.sp-icon-time:before {
+    content: "\f469";
+}
+.sp-icon-timeline:before {
+    content: "\f203";
+}
+.sp-icon-ticket:before {
+    content: "\f524";
+}
+.sp-icon-tournament:before {
+    content: "\f313";
+}
+.sp-icon-scoreboard:before {
+    content: "\f509";
+}
+.sp-icon-tshirt:before,
+.sp-icon-sp_player:before {
+    content: "\f307";
+}
+.sp-icon-trash:before {
+    content: "\f182";
+}
+.sp-icon-whistle:before {
+    content: "\f227";
+}
+.sp-icon-key:before {
+    content: "\f112";
+}
+.sp-icon-user-scores:before {
+  content: "\f101";
+}
+.sp-icon-wordpay:before {
+  content: "\f526";
+}
+
+/* Performance Icons */
+.sp-icon-card:before {
+    content: "\e801";
+}
+.sp-icon-baseball:before {
+    content: "\e701";
+}
+.sp-icon-basketball:before {
+    content: "\e602";
+}
+.sp-icon-cricketball:before {
+    content: "\e604";
+}
+.sp-icon-golfball:before {
+    content: "\e603";
+}
+.sp-icon-shoe:before {
+    content: "\e800";
+}
+.sp-icon-soccerball:before {
+    content: "\e700";
+}
+.sp-icon-sub:before {
+    content: "\f503";
+}

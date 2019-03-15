@@ -1,0 +1,55 @@
+.sponsors-carousel_wrapper {
+    padding:15px;
+    margin:0px 10px 10px 10px ;
+    border:solid 1px #bbb;
+    background: #f1f1f1;
+}
+.sponsors-carousels-list {
+    margin:0px 10px -1px 10px ;
+
+}
+.sponsors-carousels-list_el {
+    border:solid 1px #bbb;
+    border-bottom:none;
+    display:inline-block;
+    padding:5px 10px 0;
+    margin:0px 2px 0px 0px ;
+    height:25px;
+    text-decoration:none;
+}
+.sponsors-carousels-list_el.selected {
+    background: #f1f1f1;
+    z-index:1;
+    position:relative;
+}
+.sponsors-carousels-list_el:first-child {
+    margin-left:10px;
+}
+.sponsors_carousel_image {
+    position:relative;
+    height:75px;
+    padding:5px;
+    margin:10px 0px 10px 0 ;
+    border:solid 1px #bbb;
+}
+.sponsors_carousel_image img {
+    float:left;
+    width:75px;
+    height:75px;
+}
+.sponsors_carousel_image_delete {
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+.sponsors_carousel_link_edit {
+    float:left;
+    margin-left:20px;
+    width:70%;
+}
+.sponsors_carousel_link_edit input{
+    width:100%;
+}
+form#sponsors-carousel #defaultlink {
+    width:80%;
+}

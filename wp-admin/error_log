@@ -1,0 +1,25 @@
+[02-Feb-2019 13:31:30 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/sportspress/modules/sportspress-default-nationality.php on line 53
+[02-Feb-2019 14:12:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 14:31:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 14:49:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 15:49:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 15:50:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 15:57:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 16:28:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 18:23:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 18:28:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[02-Feb-2019 18:45:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[04-Feb-2019 07:52:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[04-Feb-2019 09:49:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[04-Feb-2019 10:01:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[04-Feb-2019 12:26:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[04-Feb-2019 12:39:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 06:59:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 07:42:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 09:27:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 09:33:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 09:46:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 09:48:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 09:56:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 181
+[05-Feb-2019 10:49:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WP_Mobile_Menu' does not have a method 'mm_fs_uninstall_cleanup' in /home1/checkit/public_html/coderxsolutions.com/wp-includes/class-wp-hook.php on line 286
+[05-Feb-2019 11:19:47 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home1/checkit/public_html/coderxsolutions.com/wp-content/plugins/sportspress/modules/sportspress-default-nationality.php on line 53

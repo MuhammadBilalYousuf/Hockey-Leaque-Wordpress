@@ -1,0 +1,157 @@
+# Copyright (C) 2010 Sponsors Carousel
+# This file is distributed under the same license as the Sponsors Carousel package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sponsors Carousel 3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/sponsors-carousel\n"
+"POT-Creation-Date: 2018-03-28 17:37+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: sponsors-carousel.php\n"
+"X-Poedit-SearchPath-1: class-sponsors-carousel.php\n"
+
+#: class-sponsors-carousel.php:115
+msgid "Shortcode:"
+msgstr ""
+
+#: class-sponsors-carousel.php:118
+#, php-format
+msgid "Also you can use %1$s for show this carousel."
+msgstr ""
+
+#: class-sponsors-carousel.php:122
+msgid "Speed:"
+msgstr ""
+
+#: class-sponsors-carousel.php:125
+msgid "The speed of the animation. 0 is instant, 10000 is very slow."
+msgstr ""
+
+#: class-sponsors-carousel.php:129
+msgid "Scroll Amount:"
+msgstr ""
+
+#: class-sponsors-carousel.php:132
+msgid "How many images should be scrolled in one step"
+msgstr ""
+
+#: class-sponsors-carousel.php:136
+msgid "Auto scroll:"
+msgstr ""
+
+#: class-sponsors-carousel.php:139
+msgid "Off"
+msgstr ""
+
+#: class-sponsors-carousel.php:140
+msgid "Continuous"
+msgstr ""
+
+#: class-sponsors-carousel.php:141
+msgid "Fast"
+msgstr ""
+
+#: class-sponsors-carousel.php:142
+msgid "Medium"
+msgstr ""
+
+#: class-sponsors-carousel.php:143
+msgid "Slow"
+msgstr ""
+
+#: class-sponsors-carousel.php:148
+msgid "Width of Image:"
+msgstr ""
+
+#: class-sponsors-carousel.php:154
+msgid "Height of Image:"
+msgstr ""
+
+#: class-sponsors-carousel.php:160
+msgid "Width of Carousel:"
+msgstr ""
+
+#: class-sponsors-carousel.php:166
+msgid "Distance between images:"
+msgstr ""
+
+#: class-sponsors-carousel.php:172
+msgid "Show titles for images:"
+msgstr ""
+
+#: class-sponsors-carousel.php:175 class-sponsors-carousel.php:184
+msgid "No"
+msgstr ""
+
+#: class-sponsors-carousel.php:176 class-sponsors-carousel.php:185
+msgid "Yes"
+msgstr ""
+
+#: class-sponsors-carousel.php:181
+msgid "Show controls:"
+msgstr ""
+
+#: class-sponsors-carousel.php:190
+msgid "Open in new window:"
+msgstr ""
+
+#: class-sponsors-carousel.php:193
+msgid "No, open in same window"
+msgstr ""
+
+#: class-sponsors-carousel.php:194
+msgid "Yes, open in new window"
+msgstr ""
+
+#: class-sponsors-carousel.php:199
+msgid "Default link:"
+msgstr ""
+
+#: class-sponsors-carousel.php:209
+msgid "Add images"
+msgstr ""
+
+#: class-sponsors-carousel.php:210
+msgid "Save Changes"
+msgstr ""
+
+#: class-sponsors-carousel.php:213
+msgid "Delete carousel"
+msgstr ""
+
+#: class-sponsors-carousel.php:213
+msgid "Are you sure?"
+msgstr ""
+
+#: class-sponsors-carousel.php:322
+msgid "Choose Images"
+msgstr ""
+
+#: class-sponsors-carousel.php:323
+msgid "Insert in Carousel"
+msgstr ""
+
+#: class-sponsors-carousel.php:324
+msgid "Custom link:"
+msgstr ""
+
+#: sponsors-carousel.php:31
+msgid "Sponsors Carousel"
+msgstr ""
+
+#: sponsors-carousel.php:80
+msgid "Options updated"
+msgstr ""
+
+#: sponsors-carousel.php:90
+#, php-format
+msgid "%s Settings"
+msgstr ""
